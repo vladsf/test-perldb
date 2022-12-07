@@ -8,7 +8,7 @@ $VER = '0.01';
 %DB = ();
 @SNAPSHOTS = ();
 
-print "perldb server $VER. Type Ctrl-D to exit.\n";
+print "perldb server $VER. Type 'end' or Ctrl-D to exit.\n";
 while (<STDIN>) {
 	chomp;
 	print "Read: $_\n" if $DEBUG;
